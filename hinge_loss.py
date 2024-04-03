@@ -15,8 +15,8 @@ class HingeLoss(nn.Module):
         Hinge Loss Function
         commonly used in Support Vector Machines
         params:
-            -y_true: (Tensor, optional), true labels (-1 or 1 for binary classification.).
-            -y_pred: (Tensor, optional), predicted scores or outputs of the model.
+            -y_true: (Tensor), true labels (-1 or 1 for binary classification.).
+            -y_pred: (Tensor), predicted scores or outputs of the model.
 
 
         returns:
